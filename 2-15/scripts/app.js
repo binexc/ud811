@@ -42,7 +42,6 @@
     daysOfWeek: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
   };
 
-
   /*****************************************************************************
    *
    * Event listeners for UI elements
@@ -76,7 +75,6 @@
   document.getElementById('butAddCancel').addEventListener('click', function() {
     app.toggleAddDialog(false);
   });
-
 
   /*****************************************************************************
    *
@@ -144,7 +142,6 @@
     }
   };
 
-
   /*****************************************************************************
    *
    * Methods for dealing with the model
@@ -206,5 +203,4 @@
         console.log('Service Worker Registered'); 
       });
   }
-
 })();
